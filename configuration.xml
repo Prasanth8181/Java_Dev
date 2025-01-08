@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+     <tem engine="2008.0.0" />
+     <settings>
+          <installLanguage value="ENGLISH" />
+          <silentMaintenance value="false" />
+          <aboutFullVersion value="2406.4" />
+          <installingUser value="installuser" />
+          <threads value="3" />
+          <version value="2406.0.0.4" />
+          <sourceDir value="D:\\Apps\\Downloads\\TC2406\\tc2406_wntx64" />
+          <addRemoveBase value="Teamcenter2" />
+          <application value="tceng" />
+          <installDir value="D:\\TC2406\\TC_ROOT" />
+          <addRemoveName value="Teamcenter 2 (D:\\TC2406\\TC_ROOT)" />
+          <addRemoveEntry value="HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Teamcenter2-250106161701" />
+          <startMenuName value="Environment Manager" />
+     </settings>
+     <sourceLocations>
+          <coreLocations>
+               <directory value="D:/Apps/Downloads/TC2406/tc2406_wntx64" />
+               <directory value="D:/Apps/Downloads/TC2406/Tc2406.0004_wntx64" />
+          </coreLocations>
+          <browsedLocations>
+               <directory value="D:/TC2406/TC_ROOT/microservices" />
+          </browsedLocations>
+     </sourceLocations>
+     <config name="My Configuration 1" id="config1" maintenance="true">
+          <mode type="install" clone="false">
+               <restart step="0">
+                    <component guid="KMCCTU9VJGNBYZ2PB94HFHQ6YUICEICG" tag="microservices" />
+                    <component guid="661AA2A766CA975D998EBE61455F3EA3" tag="director" />
+               </restart>
+               <checkpoints>
+                    <checkpoint value="8C061DD51E13E0CB9DC4687B1A3348BE">
+                         <point value="prep:0" />
+                    </checkpoint>
+                    <checkpoint value="feature_id">
+                         <point value="datamodel" />
+                         <point value="web" />
+                         <point value="rac" />
+                         <point value="microservice" />
+                         <point value="rtserver" />
+                    </checkpoint>
+                    <checkpoint value="A15A67C0E77B48728B9991FA2FBE414B">
+                         <point value="files:0" />
+                    </checkpoint>
+                    <checkpoint value="com.teamcenter.install.tceng.microservices.MicroservicesWin">
+                         <point value="stepGenerateKeystore" />
+                         <point value="stepInstallService" />
+                         <point value="stepUpdateScripts" />
+                    </checkpoint>
+                    <checkpoint value="processfiles">
+                         <point value="property:vc2015-2019x64:prep" />
+                         <point value="property:win_jwt_config_tool:jwt_config_tool:preinstall" />
+                         <point value="property:mps_cli_name:preinstall" />
+                         <point value="property:dbca_mssql:create_database.sql.template:prep" />
+                         <point value="property:win_service_registry:eureka_server-1.10.17_2406.0.0:files" />
+                         <point value="property:old_msf_service_name:Microservice Manager:preinstall" />
+                         <point value="property:migratejre:prep" />
+                         <point value="property:yml_template:microserviceparameterstore.yml.template:preinstall" />
+                         <point value="property:feature_id:prep" />
+                         <point value="property:yml:files" />
+                         <point value="property:msf_service_name:install" />
+                         <point value="property:mps_cli_name:mps_cli-2406.0.0:install" />
+                         <point value="property:kit_zip:microserviceparameterstore.zip:files" />
+                         <point value="property:old_msf_service_name:install" />
+                         <point value="property:bmideTemplateSource:prep" />
+                         <point value="property:minOracleVersion:11.2.0.1:prep" />
+                         <point value="property:patchingHelper:com.teamcenter.install.tceng.microservices.helpers.MicroServicesHelper:preinstall" />
+                         <point value="property:is4tierClient:prep" />
+                         <point value="property:win_service_dispatcher:install" />
+                         <point value="property:vc14.31x64:prep" />
+                         <point value="property:old_service_names:revision_config_accelerator_service:prep" />
+                         <point value="property:rtserver_file:prep" />
+                         <point value="property:template_rtserver:false:prep" />
+                         <point value="property:json_template:preinstall" />
+                         <point value="property:vc2015-2019x86:14.22.27821.0:prep" />
+                         <point value="property:service_name:microserviceparameterstore:preinstall" />
+                         <point value="property:unx_jwt_config_tool:preinstall" />
+                         <point value="property:service_full_name:microserviceparameterstore-2406.0002:preinstall" />
+                         <point value="property:win_dotnet_microproxy:files" />
+                         <point value="property:unx_service_dispatcher:files" />
+                         <point value="property:default_poolID:preinstall" />
+                         <point value="property:mps_version:preinstall" />
+                         <point value="property:old_service_names:prep" />
+                         <point value="property:unx_service_dispatcher:service_dispatcher-2406.0.0:preinstall" />
+                         <point value="property:yml:microserviceparameterstore.yml:preinstall" />
+                         <point value="A909338A1CB411DB8AF6B622A1EF5492" />
+                         <point value="property:unx_jwt_config_tool:jwt_config_tool:files" />
+                         <point value="property:vc2019x64:{0093C20C-273D-4397-B623-515CB8616CB9}:prep" />
+                         <point value="property:kit_zip:files" />
+                         <point value="property:default_poolID:install" />
+                         <point value="property:vcruntimes:prep" />
+                         <point value="property:bmide_optional:true:prep" />
+                         <point value="property:feature_id:microservice:files" />
+                         <point value="property:msf_service_name:Teamcenter Process Manager:files" />
+                         <point value="property:service_zip:microserviceparameterstore-2406.0002.zip:files" />
+                         <point value="property:template_file:foundation_template.xml:prep" />
+                         <point value="property:feature_id:microservice:preinstall" />
+                         <point value="301F12B06B3EAAB18DC0C2B9444F3B20" />
+                         <point value="property:vc2015-2022x64:14.31.31103.0:prep" />
+                         <point value="property:shutdownRequired:false:preinstall" />
+                         <point value="property:feature_id:datamodel:prep" />
+                         <point value="property:json_template:microserviceparameterstore.json.template:preinstall" />
+                         <point value="property:win_jwt_config_tool:install" />
+                         <point value="property:vc2017x64:{6c6356fe-cbfa-4944-9bed-a9e99f45cb7a}:prep" />
+                         <point value="property:exe_name:prep" />
+                         <point value="property:win_dotnet_microproxy:dotnet_microproxy-2406.0.0:preinstall" />
+                         <point value="property:unx_service_registry:preinstall" />
+                         <point value="property:old_msf_service_name:Microservice Manager:files" />
+                         <point value="property:dbca_oracle:oracle_create_servermanager.sql.template:prep" />
+                         <point value="property:default_poolID:files" />
+                         <point value="property:win_service_registry:eureka_server-1.10.17_2406.0.0:preinstall" />
+                         <point value="2275F600FCAE45339BD1B6398AC002DD" />
+                         <point value="property:json:microserviceparameterstore.json:preinstall" />
+                         <point value="9CU5YSW3J4HNV3ZRW0OBQFYHMYM97AL4" />
+                         <point value="property:manager_zip:files" />
+                         <point value="property:shutdownRequired:false:files" />
+                         <point value="property:mps_version:2406.0002:files" />
+                         <point value="property:service_display_name:Teamcenter Revision Config Accelerator Service:prep" />
+                         <point value="property:vc14.31x86:14.31.31103.0:prep" />
+                         <point value="property:typeAnalysis:prep" />
+                         <point value="property:unx_jwt_config_tool:files" />
+                         <point value="property:kit_zip:preinstall" />
+                         <point value="property:coreTemplate:foundation_template.xml:prep" />
+                         <point value="property:vc2019x64:prep" />
+                         <point value="property:win_service_registry:eureka_server-1.10.17_2406.0.0:install" />
+                         <point value="property:minMSSQL2005Version:10.50:prep" />
+                         <point value="property:msf_version:files" />
+                         <point value="property:old_msf_service_name:preinstall" />
+                         <point value="property:doRtserverCheck:prep" />
+                         <point value="property:unx_service_dispatcher:install" />
+                         <point value="property:shutdownRequired:preinstall" />
+                         <point value="property:shutdownRequired:install" />
+                         <point value="property:vc2022x86:{A181A302-3F6D-4BAD-97A8-A426A6499D78}:prep" />
+                         <point value="property:template_file:translationservice_template.xml:prep" />
+                         <point value="property:vc2017x86:{404c9c27-8377-4fd1-b607-7ca635db4e49}:prep" />
+                         <point value="ABCF035B3D3876D43A9040A99EF92808" />
+                         <point value="property:msf_version:install" />
+                         <point value="property:service_registry_version:1.10.17_2406.0.0:files" />
+                         <point value="property:mps_cli_zip:additional_applications/mps_cli.zip:files" />
+                         <point value="property:ghost:true:prep" />
+                         <point value="property:unx_service_dispatcher:preinstall" />
+                         <point value="property:service_full_name:files" />
+                         <point value="property:unx_jwt_config_tool:jwt_config_tool:preinstall" />
+                         <point value="property:vc2015-2022x86:14.31.31103.0:prep" />
+                         <point value="property:service_name:preinstall" />
+                         <point value="property:win_jwt_config_tool:preinstall" />
+                         <point value="property:mps_cli_zip:install" />
+                         <point value="property:json:preinstall" />
+                         <point value="property:service_zip:preinstall" />
+                         <point value="property:template_name:prep" />
+                         <point value="property:service_display_name:prep" />
+                         <point value="property:service_name:prep" />
+                         <point value="property:patchingHelper:preinstall" />
+                         <point value="property:win_dotnet_microproxy:install" />
+                         <point value="property:vc14.31x86:prep" />
+                         <point value="property:minDB2Version:9.7.4:prep" />
+                         <point value="property:dbca_oracle:prep" />
+                         <point value="property:json_template:microserviceparameterstore.json.template:files" />
+                         <point value="property:parallelPatchList:model:prep" />
+                         <point value="RUV1SQ8T67MG5XP9P6GT98IMB6S0VXE6" />
+                         <point value="property:ghost:prep" />
+                         <point value="E2564104E1B964BB23D78078DBA34EEA" />
+                         <point value="property:msf_service_name:preinstall" />
+                         <point value="property:template_match_1:POM_class:prep" />
+                         <point value="property:win_jwt_config_tool:jwt_config_tool:files" />
+                         <point value="property:vc2015-2022x86:prep" />
+                         <point value="property:win_dotnet_microproxy:preinstall" />
+                         <point value="property:kit_zip:microserviceparameterstore.zip:preinstall" />
+                         <point value="EUQAKN2QHFX4CE7S2065S1KUQ0KO8QAO" />
+                         <point value="DA3F5D4113BC31CC36A257EAB0669DDA" />
+                         <point value="property:mps_cli_name:mps_cli-2406.0.0:files" />
+                         <point value="property:win_dotnet_microproxy:dotnet_microproxy-2406.0.0:install" />
+                         <point value="property:unx_service_registry:files" />
+                         <point value="property:json:files" />
+                         <point value="property:dbca_mssql:prep" />
+                         <point value="property:service_name:am_read_expression_manager:prep" />
+                         <point value="93BDC957620C80B2A10F1845950F8D4B" />
+                         <point value="property:latest:2022:prep" />
+                         <point value="property:json:microserviceparameterstore.json:files" />
+                         <point value="property:contributesToMS:true:preinstall" />
+                         <point value="FMBVN8NSKJF0GKQ8MIES2KMQ8XR33WFB" />
+                         <point value="property:vc2017x86:prep" />
+                         <point value="property:template_file:prep" />
+                         <point value="property:InstallerName:prep" />
+                         <point value="property:feature_id:files" />
+                         <point value="property:service_registry_version:files" />
+                         <point value="property:vc2015-2019x64:14.22.27821.0:prep" />
+                         <point value="property:patchingHelper:com.teamcenter.install.tceng.microservices.helpers.MicroServicesHelper:files" />
+                         <point value="property:feature_id:rac:prep" />
+                         <point value="property:win_jwt_config_tool:jwt_config_tool:install" />
+                         <point value="property:feature_id:web:prep" />
+                         <point value="property:service_registry_version:1.10.17_2406.0.0:preinstall" />
+                         <point value="property:msf_service_name:Teamcenter Process Manager:install" />
+                         <point value="property:vc2019x86:{5bfc1380-fd35-4b85-9715-7351535d077e}:prep" />
+                         <point value="property:json_template:files" />
+                         <point value="property:vc2022x64:prep" />
+                         <point value="property:restart_on_patch:prep" />
+                         <point value="property:contributesToMS:files" />
+                         <point value="property:latest:prep" />
+                         <point value="property:feature_id:preinstall" />
+                         <point value="property:manager_zip:process_manager:install" />
+                         <point value="property:manager_zip:preinstall" />
+                         <point value="property:patchingHelper:com.teamcenter.install.tceng.servermgr.ServerManagerPatch:prep" />
+                         <point value="property:shutdownRequired:false:install" />
+                         <point value="property:yml:preinstall" />
+                         <point value="property:manager_zip:process_manager:preinstall" />
+                         <point value="property:workflowAdmin:prep" />
+                         <point value="property:win_service_dispatcher:preinstall" />
+                         <point value="property:dbca_rds_oracle:prep" />
+                         <point value="property:default_poolID:PoolA:files" />
+                         <point value="property:bmideTemplateSource:businessdata:prep" />
+                         <point value="property:template_file:cla0classification_template.xml:prep" />
+                         <point value="property:contributesToMS:preinstall" />
+                         <point value="property:unx_service_registry:install" />
+                         <point value="property:shutdownRequired:false:prep" />
+                         <point value="property:yml_template:microserviceparameterstore.yml.template:files" />
+                         <point value="property:unx_service_dispatcher:service_dispatcher-2406.0.0:files" />
+                         <point value="property:minMSSQL2005Version:prep" />
+                         <point value="property:manager_zip:process_manager:files" />
+                         <point value="property:service_name:revision_config_accelerator:prep" />
+                         <point value="VNJ05PMAHVBUK6BZZF4OFS4GWLWA12Z9" />
+                         <point value="property:msf_service_name:Teamcenter Process Manager:preinstall" />
+                         <point value="property:msf_version:2406.0.0:install" />
+                         <point value="property:mps_cli_name:mps_cli-2406.0.0:preinstall" />
+                         <point value="property:shutdownRequired:files" />
+                         <point value="property:InstallerName:MicrosoftEdgeWebView2RuntimeInstallerX64.exe:prep" />
+                         <point value="property:parallelPatchList:prep" />
+                         <point value="property:service_registry_version:install" />
+                         <point value="property:unx_service_registry:eureka_server-1.10.17_2406.0.0:files" />
+                         <point value="property:service_name:microserviceparameterstore:files" />
+                         <point value="property:service_registry_version:1.10.17_2406.0.0:install" />
+                         <point value="C10846D4E83C11DBB817239D55D89593" />
+                         <point value="property:service_full_name:preinstall" />
+                         <point value="property:service_full_name:microserviceparameterstore-2406.0002:files" />
+                         <point value="property:migratejre:yes:prep" />
+                         <point value="property:dbca_postgres:prep" />
+                         <point value="property:unx_service_registry:eureka_server-1.10.17_2406.0.0:install" />
+                         <point value="property:mps_cli_zip:additional_applications/mps_cli.zip:install" />
+                         <point value="property:contributesToMS:true:files" />
+                         <point value="property:mps_version:files" />
+                         <point value="property:win_service_dispatcher:service_dispatcher-2406.0.0:install" />
+                         <point value="8C061DD51E13E0CB9DC4687B1A3348BE" />
+                         <point value="property:template_name:cla0classification:prep" />
+                         <point value="property:vc2019x86:prep" />
+                         <point value="property:unx_service_registry:eureka_server-1.10.17_2406.0.0:preinstall" />
+                         <point value="property:mps_cli_zip:additional_applications/mps_cli.zip:preinstall" />
+                         <point value="property:old_msf_service_name:files" />
+                         <point value="property:minOracleVersion:prep" />
+                         <point value="property:exe_name:revision_config_accelerator.exe:prep" />
+                         <point value="property:win_dotnet_microproxy:dotnet_microproxy-2406.0.0:files" />
+                         <point value="property:patchingHelper:install" />
+                         <point value="property:rtserver_file:cla0classification_rtserver.zip:prep" />
+                         <point value="A0CF69C3A0BC61770EB81BD22667EA52" />
+                         <point value="property:msf_version:2406.0.0:preinstall" />
+                         <point value="property:mps_cli_name:files" />
+                         <point value="property:msf_version:preinstall" />
+                         <point value="property:parallelPatchList:pom_transmit:prep" />
+                         <point value="B176F6B6E9E91D9804EFB0D2010FD613" />
+                         <point value="property:unx_service_dispatcher:service_dispatcher-2406.0.0:install" />
+                         <point value="property:manager_zip:install" />
+                         <point value="property:shutdownRequired:prep" />
+                         <point value="property:vc14.31x64:14.31.31103.0:prep" />
+                         <point value="property:bmide_optional:prep" />
+                         <point value="property:template_rtserver:prep" />
+                         <point value="process_cleanup.xml:files" />
+                         <point value="property:win_service_registry:files" />
+                         <point value="property:yml_template:files" />
+                         <point value="property:vc2015-2019x86:prep" />
+                         <point value="property:service_zip:files" />
+                         <point value="property:parallelPatchList:install:prep" />
+                         <point value="property:vc2022x64:{799E3FFF-705C-461F-B400-6DE27398B3E5}:prep" />
+                         <point value="property:mps_cli_zip:files" />
+                         <point value="property:mps_version:2406.0002:preinstall" />
+                         <point value="property:unx_jwt_config_tool:jwt_config_tool:install" />
+                         <point value="property:old_msf_service_name:Microservice Manager:install" />
+                         <point value="property:is4tierClient:true:prep" />
+                         <point value="property:coreTemplate:prep" />
+                         <point value="property:win_service_dispatcher:service_dispatcher-2406.0.0:files" />
+                         <point value="A15A67C0E77B48728B9991FA2FBE414B" />
+                         <point value="property:template_match_1:prep" />
+                         <point value="property:doRtserverCheck:true:prep" />
+                         <point value="property:yml_template:preinstall" />
+                         <point value="property:feature_id:rtserver:prep" />
+                         <point value="property:dbca_postgres:postgres_create_servermanager.sql.template:prep" />
+                         <point value="property:template_match_1:ETSTranslationRequest:prep" />
+                         <point value="property:restart_on_patch:false:prep" />
+                         <point value="property:default_poolID:PoolA:install" />
+                         <point value="90C2A1C96F6A61FAB397AF88ABE4AAC1" />
+                         <point value="property:dbca_rds_oracle:oracle_rds_create_servermanager.sql.template:prep" />
+                         <point value="property:service_name:files" />
+                         <point value="property:vcruntimes:latest:prep" />
+                         <point value="property:default_poolID:PoolA:preinstall" />
+                         <point value="property:template_name:a2first:prep" />
+                         <point value="property:msf_version:2406.0.0:files" />
+                         <point value="property:bmide_optional:false:prep" />
+                         <point value="WV56WDWGQRW3NDGOS4YEXNF55EKZHUEN" />
+                         <point value="property:service_registry_version:preinstall" />
+                         <point value="property:minDB2Version:prep" />
+                         <point value="property:win_service_registry:preinstall" />
+                         <point value="property:template_file:a2first_template.xml:prep" />
+                         <point value="property:patchingHelper:files" />
+                         <point value="property:parallelPatchList:gs_info:prep" />
+                         <point value="property:win_service_registry:install" />
+                         <point value="property:template_name:foundation:prep" />
+                         <point value="property:win_service_dispatcher:service_dispatcher-2406.0.0:preinstall" />
+                         <point value="property:patchingHelper:prep" />
+                         <point value="BF0E78AFE4280DCB08594EA2F3671BE8" />
+                         <point value="property:win_service_dispatcher:files" />
+                         <point value="property:vc2015-2022x64:prep" />
+                         <point value="property:vc2017x64:prep" />
+                         <point value="property:mps_cli_zip:preinstall" />
+                         <point value="A9CECD82127A11DB9804B622A1EF5492" />
+                         <point value="property:template_match_1:name:prep" />
+                         <point value="property:unx_jwt_config_tool:install" />
+                         <point value="property:workflowAdmin:Workflow Admin:prep" />
+                         <point value="property:typeAnalysis:true:prep" />
+                         <point value="property:msf_service_name:files" />
+                         <point value="property:vc2022x86:prep" />
+                         <point value="property:service_zip:microserviceparameterstore-2406.0002.zip:preinstall" />
+                         <point value="property:patchingHelper:com.teamcenter.install.tceng.microservices.helpers.MicroServicesHelper:install" />
+                         <point value="property:template_name:translationservice:prep" />
+                         <point value="property:mps_cli_name:install" />
+                         <point value="property:win_jwt_config_tool:files" />
+                         <point value="property:yml:microserviceparameterstore.yml:files" />
+                    </checkpoint>
+                    <checkpoint value="2275F600FCAE45339BD1B6398AC002DD">
+                         <point value="files:0" />
+                         <point value="install:0" />
+                    </checkpoint>
+                    <checkpoint value="93BDC957620C80B2A10F1845950F8D4B">
+                         <point value="files:0" />
+                    </checkpoint>
+               </checkpoints>
+          </mode>
+          <comments>
+               <comment transient="true">
+                    <severity text="1" />
+                    <title text="director.crash" />
+                    <bundle text="TEMBundle.xml" />
+               </comment>
+               <comment transient="true">
+                    <severity text="3" />
+                    <title text="A log of the install can be found in D:\TC2406\TC_ROOT\install\install_config1_2501081724_38.log" />
+                    <bundle text="TEMBundle.xml" />
+               </comment>
+          </comments>
+          <data>
+               <flexClient guid="7221ECFBC9555CDF997FC3F575022761">
+                    <nX5Port value="28000" />
+                    <port value="27000" />
+                    <nX4String value="" />
+                    <nX5Host value="10.0.0.13" />
+                    <host value="INHYD0014DC" />
+                    <envServerString value="28000@192.168.2.15" />
+                    <nX5CheckBox value="true" />
+                    <nX5String value="28000@192.168.2.15" />
+               </flexClient>
+               <NxRc guid="3AC7295FE31CCFE6D8F8E37B0695D76A">
+                    <installLocation value="" />
+                    <maxNumberOfPorts value="1" />
+                    <graphicsBuilderBasePort value="2300" />
+               </NxRc>
+               <security guid="ZUG63OE2YRNFD1VY13KCEZM52XFJP45D">
+                    <adminDirectory value="D:\\TC2406\\TC_ROOT\\security" />
+               </security>
+               <CharacterEncoding guid="5DC9A91F385448965CD1EDE3200A15E9">
+                    <charEncoding value="UTF8" />
+               </CharacterEncoding>
+               <adminUser guid="2E53CFC3AC75665E50FF0F207D1D013B">
+                    <credentials value="-u=infodba -pf=D:\\TC2406\\TC_ROOT\\security\\config1_infodba.pwf -g=dba" />
+                    <user value="infodba" />
+                    <pwf value="D:\\TC2406\\TC_ROOT\\security\\config1_infodba.pwf" />
+               </adminUser>
+               <TPC guid="AC98DE452A2837C08CD17D82CB731211">
+                    <tpcHomeEnv value="D:\\TC2406\\TC_ROOT\\foss_repository" />
+                    <tpcMediaLocation value="D:\\Apps\\Downloads\\TC2406\\Tc2406.0004_wntx64\\tc\\foss_repository" />
+                    <tpcTargetDir value="D:\\TC2406\\TC_ROOT\\foss_repository" />
+               </TPC>
+               <FSCMasterSettings guid="EBC3422F77C6BF18FE0E3A821EFE1134">
+                    <masterModel value="Simple Model" />
+               </FSCMasterSettings>
+               <microservices guid="KMCCTU9VJGNBYZ2PB94HFHQ6YUICEICG">
+                    <keystorePassword value="lHdcXbLUnQqWhIQmcYKrMg" encrypt="true" />
+                    <registryURLs value="http://INHYD0014DC:8787/eureka/v2/" />
+                    <replicas value="1" />
+                    <otherDispatcherUrls value="" />
+                    <services value="microserviceparameterstore,1" />
+                    <dispatcherFQDNURLs value="http://INHYD0014DC.IZD01.in:9090/" />
+                    <appPath_fs value="D:/TC2406/TC_ROOT" />
+                    <masterNode value="true" />
+                    <containerRepoName value="teamcenter" />
+                    <selDispatcher value="true" />
+                    <registryPort value="8787" />
+                    <dispatcherPort value="9090" />
+                    <selRegistry value="true" />
+                    <dispatcherURLs value="http://INHYD0014DC:9090/" />
+                    <otherRegistryUrls value="" />
+               </microservices>
+               <ReadExpressionService guid="ZELFD1WX4AGFMJ9CTL3H8G7882RY8RWI">
+                    <sleepTime value="10" />
+                    <startTime value="" />
+                    <endTime value="" />
+               </ReadExpressionService>
+               <director guid="661AA2A766CA975D998EBE61455F3EA3">
+                    <loggingDir value="D:\\TC2406\\TC_ROOT\\logs\\2501081724" />
+                    <errorFile value="C:\\Users\\INSTAL~1\\AppData\\Local\\Temp\\tem13430752126320457121.log" />
+                    <saveStateOnFail value="true" />
+                    <status value="-1" />
+                    <script>
+                         <install feature="A15A67C0E77B48728B9991FA2FBE414B" name="Microservices Framework" />
+                         <install feature="93BDC957620C80B2A10F1845950F8D4B" name="Microservice Parameter Store" />
+                         <postInstall feature="2275F600FCAE45339BD1B6398AC002DD" name="Microservices Manager" />
+                         <postInstall feature="A15A67C0E77B48728B9991FA2FBE414B" name="Microservices Framework" />
+                         <postInstall feature="93BDC957620C80B2A10F1845950F8D4B" name="Microservice Parameter Store" />
+                         <preRefresh feature="A0CF69C3A0BC61770EB81BD22667EA52" name="Microsoft Visual C++ Runtimes" />
+                         <preRefresh feature="RUV1SQ8T67MG5XP9P6GT98IMB6S0VXE6" name="FOSS Repository" />
+                         <preRefresh feature="A9CECD82127A11DB9804B622A1EF5492" name="Business Modeler IDE" />
+                         <preRefresh feature="A909338A1CB411DB8AF6B622A1EF5492" name="Business Modeler Templates" />
+                         <preRefresh feature="9CU5YSW3J4HNV3ZRW0OBQFYHMYM97AL4" name="Microsoft Edge WebView2 Runtime" />
+                         <preRefresh feature="90C2A1C96F6A61FAB397AF88ABE4AAC1" name="FMS Server Cache" />
+                         <preRefresh feature="8C061DD51E13E0CB9DC4687B1A3348BE" name="Teamcenter Foundation" />
+                         <preRefresh feature="B176F6B6E9E91D9804EFB0D2010FD613" name="NX Part Family Classification Integration" />
+                         <preRefresh feature="BF0E78AFE4280DCB08594EA2F3671BE8" name="Server Manager" />
+                         <preRefresh feature="EUQAKN2QHFX4CE7S2065S1KUQ0KO8QAO" name="Teamcenter Read Expression Manager Service" />
+                         <preRefresh feature="FMBVN8NSKJF0GKQ8MIES2KMQ8XR33WFB" name="Teamcenter Revision Configuration Accelerator Service" />
+                         <preRefresh feature="WV56WDWGQRW3NDGOS4YEXNF55EKZHUEN" name="Client Communication System (Core)" />
+                         <preRefresh feature="C10846D4E83C11DBB817239D55D89593" name="Business Modeler IDE 2-tier" />
+                         <preRefresh feature="E2564104E1B964BB23D78078DBA34EEA" name="Teamcenter Rich Client 2-tier" />
+                         <preRefresh feature="301F12B06B3EAAB18DC0C2B9444F3B20" name="Translation Service Database Module/Data Model" />
+                         <preRefresh feature="DA3F5D4113BC31CC36A257EAB0669DDA" name="Classification Interface/Data Model" />
+                         <preRefresh feature="VNJ05PMAHVBUK6BZZF4OFS4GWLWA12Z9" name="Classification Interface/Runtime Server" />
+                         <preRefresh feature="ABCF035B3D3876D43A9040A99EF92808" name="first/Data Model" />
+                         <refresh feature="A0CF69C3A0BC61770EB81BD22667EA52" name="Microsoft Visual C++ Runtimes" />
+                         <refresh feature="RUV1SQ8T67MG5XP9P6GT98IMB6S0VXE6" name="FOSS Repository" />
+                         <refresh feature="A9CECD82127A11DB9804B622A1EF5492" name="Business Modeler IDE" />
+                         <refresh feature="A909338A1CB411DB8AF6B622A1EF5492" name="Business Modeler Templates" />
+                         <refresh feature="9CU5YSW3J4HNV3ZRW0OBQFYHMYM97AL4" name="Microsoft Edge WebView2 Runtime" />
+                         <refresh feature="90C2A1C96F6A61FAB397AF88ABE4AAC1" name="FMS Server Cache" />
+                         <refresh feature="8C061DD51E13E0CB9DC4687B1A3348BE" name="Teamcenter Foundation" />
+                         <refresh feature="B176F6B6E9E91D9804EFB0D2010FD613" name="NX Part Family Classification Integration" />
+                         <refresh feature="BF0E78AFE4280DCB08594EA2F3671BE8" name="Server Manager" />
+                         <refresh feature="EUQAKN2QHFX4CE7S2065S1KUQ0KO8QAO" name="Teamcenter Read Expression Manager Service" />
+                         <refresh feature="FMBVN8NSKJF0GKQ8MIES2KMQ8XR33WFB" name="Teamcenter Revision Configuration Accelerator Service" />
+                         <refresh feature="WV56WDWGQRW3NDGOS4YEXNF55EKZHUEN" name="Client Communication System (Core)" />
+                         <refresh feature="C10846D4E83C11DBB817239D55D89593" name="Business Modeler IDE 2-tier" />
+                         <refresh feature="E2564104E1B964BB23D78078DBA34EEA" name="Teamcenter Rich Client 2-tier" />
+                         <refresh feature="301F12B06B3EAAB18DC0C2B9444F3B20" name="Translation Service Database Module/Data Model" />
+                         <refresh feature="DA3F5D4113BC31CC36A257EAB0669DDA" name="Classification Interface/Data Model" />
+                         <refresh feature="VNJ05PMAHVBUK6BZZF4OFS4GWLWA12Z9" name="Classification Interface/Runtime Server" />
+                         <refresh feature="ABCF035B3D3876D43A9040A99EF92808" name="first/Data Model" />
+                         <postRefresh feature="A0CF69C3A0BC61770EB81BD22667EA52" name="Microsoft Visual C++ Runtimes" />
+                         <postRefresh feature="RUV1SQ8T67MG5XP9P6GT98IMB6S0VXE6" name="FOSS Repository" />
+                         <postRefresh feature="A9CECD82127A11DB9804B622A1EF5492" name="Business Modeler IDE" />
+                         <postRefresh feature="A909338A1CB411DB8AF6B622A1EF5492" name="Business Modeler Templates" />
+                         <postRefresh feature="9CU5YSW3J4HNV3ZRW0OBQFYHMYM97AL4" name="Microsoft Edge WebView2 Runtime" />
+                         <postRefresh feature="90C2A1C96F6A61FAB397AF88ABE4AAC1" name="FMS Server Cache" />
+                         <postRefresh feature="8C061DD51E13E0CB9DC4687B1A3348BE" name="Teamcenter Foundation" />
+                         <postRefresh feature="B176F6B6E9E91D9804EFB0D2010FD613" name="NX Part Family Classification Integration" />
+                         <postRefresh feature="BF0E78AFE4280DCB08594EA2F3671BE8" name="Server Manager" />
+                         <postRefresh feature="EUQAKN2QHFX4CE7S2065S1KUQ0KO8QAO" name="Teamcenter Read Expression Manager Service" />
+                         <postRefresh feature="FMBVN8NSKJF0GKQ8MIES2KMQ8XR33WFB" name="Teamcenter Revision Configuration Accelerator Service" />
+                         <postRefresh feature="WV56WDWGQRW3NDGOS4YEXNF55EKZHUEN" name="Client Communication System (Core)" />
+                         <postRefresh feature="C10846D4E83C11DBB817239D55D89593" name="Business Modeler IDE 2-tier" />
+                         <postRefresh feature="E2564104E1B964BB23D78078DBA34EEA" name="Teamcenter Rich Client 2-tier" />
+                         <postRefresh feature="301F12B06B3EAAB18DC0C2B9444F3B20" name="Translation Service Database Module/Data Model" />
+                         <postRefresh feature="DA3F5D4113BC31CC36A257EAB0669DDA" name="Classification Interface/Data Model" />
+                         <postRefresh feature="VNJ05PMAHVBUK6BZZF4OFS4GWLWA12Z9" name="Classification Interface/Runtime Server" />
+                         <postRefresh feature="ABCF035B3D3876D43A9040A99EF92808" name="first/Data Model" />
+                         <featureInstalled feature="2275F600FCAE45339BD1B6398AC002DD" name="Microservices Manager" />
+                         <featureInstalled feature="A15A67C0E77B48728B9991FA2FBE414B" name="Microservices Framework" />
+                         <featureInstalled feature="93BDC957620C80B2A10F1845950F8D4B" name="Microservice Parameter Store" />
+                    </script>
+               </director>
+               <volume guid="1F16971107DE44C0C7827F800EE4AEF8">
+                    <hostName value="INHYD0014DC" />
+                    <fscId value="FSC_INHYD0014DC_installuser" />
+                    <port value="4544" />
+                    <fscModel value="Simple Model" />
+                    <name value="volume" />
+                    <location value="D:\\TC2406\\volume" />
+               </volume>
+               <transientVolume guid="983980098FF188A8C4BF08E8168A32A8">
+                    <windowsVolume value="C:\\Temp\\transientVolume_infodba" />
+                    <unixVolume value="/tmp/transientVolume_infodba" />
+               </transientVolume>
+               <RACSettings guid="5556237F3F54D1DD059F0A385B88CA46">
+                    <tempFolder value="" />
+                    <browserLoc value="" />
+               </RACSettings>
+               <RACFCCSettings guid="8BC34CE71B738026DF2B3D94A83A836C">
+                    <buildTccs value="false" />
+                    <doMerge value="false" />
+                    <newHome value="D:\\TC2406\\TC_ROOT\\tccs" />
+                    <existingHome value="D:\\TC2406\\TC_ROOT\\tccs" />
+                    <needToSetFmsHome value="true" />
+               </RACFCCSettings>
+               <ServerManagerConsoleLDAP guid="30E3AC7AF5CA4F82EAE21C8073SSSSSS">
+                    <externalLDAP value="false" />
+                    <components value="||||ou=Users|inetOrgPerson|uid||||;" />
+                    <embComponents value="ldap|15389|||;" />
+               </ServerManagerConsoleLDAP>
+               <TcOracleEngine guid="F4F7C0852B27D6E56B8C64BE77FFA14C">
+                    <enableTCPS value="false" />
+                    <uTF8Enabled value="true" />
+                    <password value="" encrypt="false" />
+                    <populate value="true" />
+                    <flush value="false" />
+                    <port value="1521" />
+                    <service value="TCDB2406" />
+                    <host value="INHYD0014DC" />
+                    <sSLVersion value="" />
+                    <create value="false" />
+                    <createUser value="false" />
+                    <user value="infodba" />
+                    <walletLocation value="" />
+               </TcOracleEngine>
+               <sslconfig guid="YB6AY4CKBY2HUQI75405XIQF5FZ9SWR5">
+                    <enableSSL value="false" />
+               </sslconfig>
+               <SmOracleEngine guid="PT80UPQ09YJRVPO98FYJQAP8BTAYXESG">
+                    <enableTCPS value="false" />
+                    <password value="" encrypt="false" />
+                    <port value="1521" />
+                    <service value="TCDB2406" />
+                    <host value="INHYD0014DC" />
+                    <sSLVersion value="" />
+                    <create value="false" />
+                    <createUser value="false" />
+                    <user value="infodba" />
+                    <walletLocation value="" />
+               </SmOracleEngine>
+               <FSCParents guid="30E3AC7AF5CA4F82EAE21C80737EE55B">
+                    <assignmentMode value="clientmap" />
+                    <parents value="http,INHYD0014DC,4544,,0,lan,;" />
+               </FSCParents>
+               <SsoRc guid="E55610E8ECDB81520D8DAFD99D6BF542">
+                    <tssBrowser value="" />
+                    <loginURL value="" />
+                    <appId value="Teamcenter" />
+               </SsoRc>
+               <FSCService guid="F2FCBCEC03DFF7F9D1E3A11EC9B64BD2">
+                    <log value="" />
+                    <addToBootstrap value="true" />
+                    <fscWriteCacheDir value="$HOME\\FSCCache" />
+                    <fscReadCacheDir value="$HOME\\FSCCache" />
+                    <fscReadCacheSize value="10" />
+                    <fscWriteCacheSize value="10" />
+                    <serverID value="FSC_INHYD0014DC_installuser" />
+               </FSCService>
+               <OSUser guid="CA769D31FD7E122E5E509A0BBBD7E809">
+                    <password value="" encrypt="false" />
+                    <user value="IZD01\\installuser" />
+               </OSUser>
+               <fscDss guid="K9F2E54DZ7ZCJZP3YJH7FUCTSFHHKWC8">
+                    <enabled value="false" />
+               </fscDss>
+               <FSCServiceFCCDefaults guid="7311DC5E94724BED0DD7419FCDE055CF">
+                    <cacheDirWin value="$HOME\\FCCCache" />
+                    <partialReadCacheSize value="3000" />
+                    <readCacheSize value="1000" />
+                    <cacheDirUnix value="/tmp/$USER/FCCCache" />
+                    <writeCacheSize value="1000" />
+               </FSCServiceFCCDefaults>
+               <serviceUser guid="QDHCENE82PUJPWOEK73763HE0NNXTP1O">
+                    <runAsSystem value="false" />
+               </serviceUser>
+               <foundationSettings guid="LHBY67ZYMYHSKED26FHDNDHFJTZD84I7">
+                    <productionEnvironment value="true" />
+                    <updateDatabase value="true" />
+                    <requestMetaCacheRebuild value="true" />
+                    <targetkit value="\&quot;D:\\Apps\\Downloads\\TC2406\\Tc2406.0004_wntx64\&quot;" />
+                    <emailCharSet value="ISO-8859-1" />
+                    <connectionSecurity value="None" />
+                    <genServCache value="" />
+                    <emailServerPort value="25" />
+                    <enableGenServCache value="true" />
+                    <genClientCache value="generate all" />
+                    <sslProtocol value="TLSv1" />
+                    <templatesToBeInstalled value="" />
+                    <forceUpdateDatabase value="false" />
+                    <quickClone value="false" />
+               </foundationSettings>
+               <SmartCardAuth guid="77BDBCBC104D8F7DC4EAF38E29ADC0F5">
+                    <keyStoreType value="JKS" />
+                    <useIECertificateStore value="true" />
+                    <acceptUntrustedCerts value="false" />
+                    <trustStoreFile value="" />
+                    <disableSSL value="false" />
+                    <keyStoreFile value="" />
+                    <useKeyStore value="false" />
+                    <useTrustStore value="true" />
+                    <manualCertStoreCfg value="false" />
+               </SmartCardAuth>
+               <RichClient2-tierSettings guid="FD83D83E316B865D4AFA06E24C106EC3">
+                    <webServer value="" />
+               </RichClient2-tierSettings>
+               <TcCSEnvironsT2andT4Component guid="Q8BR16HNQAKA0J9YD6AQXHKQZCLEDKC6">
+                    <environs value="TcEnv1,D:\\TC2406\\TC_DATA,2406.004,,,UTF8,true,;" />
+                    <install2t value="true" />
+                    <installuid value="5NKWY0A8QDBG4OF626GY0RTH5I91GRYP" />
+               </TcCSEnvironsT2andT4Component>
+               <FSCServiceConnections guid="E4BDA0B521CB10A49F0CE123C9F326F1">
+                    <connections value="http,4544,;" />
+               </FSCServiceConnections>
+               <FscGroupSiteImport guid="F8C9E04EFFC31316E02CB4FE7D0EF96D">
+                    <remoteGroupSites value="" />
+               </FscGroupSiteImport>
+               <FscSiteImport guid="630BECF927EC742A748A97486D5868DA">
+                    <remoteSites value="" />
+               </FscSiteImport>
+               <tcdata guid="4500621E2BE24BF0DD6ABF31EBA01088">
+                    <path value="D:\\TC2406\\TC_DATA" />
+                    <serverHostLocation value="INHYD0014DC" />
+                    <siteId value="-1673505622" />
+                    <create value="true" />
+                    <shareName value="" />
+                    <dsmKeyPath value="" />
+               </tcdata>
+               <serverMgrJ2ee guid="716871295BD80BADA2F139A5F9D95B6A">
+                    <smgrMinServers value="1" />
+                    <smgrServerTarget value="0700 3, 1700 2" />
+                    <hardTimeoutStateless value="28800" />
+                    <smgrServerHost value="INHYD0014DC" />
+                    <smgrPoolPort value="8085" />
+                    <smgrPoolId value="PoolA" />
+                    <smgrJmxRMIPort value="8088" />
+                    <hardTimeoutEdit value="28800" />
+                    <softTimeoutEdit value="28800" />
+                    <smgrLocalPort value="17800" />
+                    <softTimeoutStateless value="1200" />
+                    <smgrAssignmentServicePort value="8086" />
+                    <smgrClusterID value="TcCluster" />
+                    <smgrLoginsPerMinute value="0" />
+                    <smgrMaxServers value="30" />
+                    <smgrServiceMode value="true" />
+                    <softTimeoutRead value="28800" />
+                    <hardTimeoutRead value="28800" />
+               </serverMgrJ2ee>
+               <jdk guid="AC98DE452A2837C08CD17D82CB7312E8">
+                    <path value="D:\\Apps\\Downloads\\TC2406\\zulu17.50.19-ca-jdk17.0.11-win_x64" />
+               </jdk>
+               <productExcellence guid="0YFDC18PY2QFNSBJW7SNDMUUWJWUMQEA">
+                    <participate value="false" />
+               </productExcellence>
+               <multiplexingproxy guid="RV8GS2JMCOP2OQDRQROUAGFR6S0JBDIM">
+                    <port value="8087" />
+                    <adminPort value="8084" />
+               </multiplexingproxy>
+               <ClientTransportMode guid="18DVF0VKAUEEFBQ5JOI6U7M17PHXK5XA">
+                    <filterText value="2406.*" />
+                    <useConfig value="false" />
+               </ClientTransportMode>
+          </data>
+          <features>
+               <installed feature="A0CF69C3A0BC61770EB81BD22667EA52" name="Microsoft Visual C++ Runtimes" />
+               <installed feature="A9CECD82127A11DB9804B622A1EF5492" name="Business Modeler IDE" />
+               <installed feature="A909338A1CB411DB8AF6B622A1EF5492" name="Business Modeler Templates" />
+               <installed feature="9CU5YSW3J4HNV3ZRW0OBQFYHMYM97AL4" name="Microsoft Edge WebView2 Runtime" />
+               <installed feature="90C2A1C96F6A61FAB397AF88ABE4AAC1" name="FMS Server Cache" />
+               <installed feature="8C061DD51E13E0CB9DC4687B1A3348BE" name="Teamcenter Foundation" />
+               <installed feature="B176F6B6E9E91D9804EFB0D2010FD613" name="NX Part Family Classification Integration" />
+               <installed feature="EUQAKN2QHFX4CE7S2065S1KUQ0KO8QAO" name="Teamcenter Read Expression Manager Service" />
+               <installed feature="FMBVN8NSKJF0GKQ8MIES2KMQ8XR33WFB" name="Teamcenter Revision Configuration Accelerator Service" />
+               <installed feature="WV56WDWGQRW3NDGOS4YEXNF55EKZHUEN" name="Client Communication System (Core)" />
+               <installed feature="C10846D4E83C11DBB817239D55D89593" name="Business Modeler IDE 2-tier" />
+               <installed feature="E2564104E1B964BB23D78078DBA34EEA" name="Teamcenter Rich Client 2-tier" />
+               <installed feature="301F12B06B3EAAB18DC0C2B9444F3B20" name="Translation Service Database Module/Data Model" />
+               <installed feature="DA3F5D4113BC31CC36A257EAB0669DDA" name="Classification Interface/Data Model" />
+               <installed feature="VNJ05PMAHVBUK6BZZF4OFS4GWLWA12Z9" name="Classification Interface/Runtime Server" />
+               <installed feature="ABCF035B3D3876D43A9040A99EF92808" name="first/Data Model" />
+               <installed feature="BF0E78AFE4280DCB08594EA2F3671BE8" name="Server Manager" />
+               <installed feature="RUV1SQ8T67MG5XP9P6GT98IMB6S0VXE6" name="FOSS Repository" />
+               <add feature="2275F600FCAE45339BD1B6398AC002DD" name="Microservices Manager" />
+               <add feature="A15A67C0E77B48728B9991FA2FBE414B" name="Microservices Framework" />
+               <add feature="93BDC957620C80B2A10F1845950F8D4B" name="Microservice Parameter Store" />
+               <spf feature="8BAF27DE96DF64235A71ECAC4700F640" name="first" />
+               <spf feature="307463F1D14E08DFF4F0591C4E892837" name="Classification Interface" />
+               <spf feature="326CA27DCABEFBB96D2735397986C1B9" name="Translation Service Database Module" />
+          </features>
+     </config>
+     <updateManager>
+          <patch dir="D:\\Apps\\Downloads\\TC2406\\Tc2406.0004_wntx64" backup="D:\\TC2406\\TC_ROOT\\install\\backup" date="202501061536" version="2406.4" parentVersion="2406" applicationId="Foundation" />
+     </updateManager>
+</root>
