@@ -1,0 +1,21 @@
+Check this out: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/wiki/BOM-World and https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way for some sample queries.
+
+ 
+
+pImanType is the table that holds the Type information. Every object gets stored in ppom_object. If you are dealing with workspace object, it would also get stored in ppom_application_object and pworkspaceobject. If it is an Item, then pItem as well. If it is a Revision, pItemRevision as well. If it is a relation, pImanRelation as well. An Item for instance, has its information stored in ppom_object, ppom_application_object, pworkspaceobject, pitem. If you check in BMIDE, properties like Object Name, Description, Type are defined at Workspace object level. So if you want that information for an Item, you would join pItem and pWorkspaceObject tables with puid - as this would be the primary key onto the database tables and they would be equal in this case.
+
+ 
+
+Item types, as mentioned are on pImanType and pWorkspaceObject. Join them to get your needed data. Ex: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/blob/master/List_All_ECN_SolutionItems.sql
+
+ 
+
+Documents/Datasets gets associated with a certain relationship in most cases. This information is in pImanRelation holding primary and secondaries and once again, pImanType has to be consulted too. Ex: https://github.com/pawanit17/Exploring-Teamcenter-The-SQL-Way/blob/master/List_All_Specification_Datasets.sql
+
+ 
+
+NOTE: Before starting BMIDE deployments, operations usually run clearlocks to kill Tc sessions. If you have a live database connection, it will not get detected during clearlocks. This will prevent DB deployment. So you have to be more aware of this. Also an unintentional update to db will result in data inconsistencies. If you want to go in this direction, try getting a READ-ONLY account onto your database to prevent unintentional updates.
+
+ 
+
+Hope this helps.
